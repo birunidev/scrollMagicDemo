@@ -1,0 +1,45 @@
+h2 {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: .9s ease;
+}
+
+p {
+    transition: .9s ease;
+    opacity: 0;
+    transform: translateY(150px);
+    color: #868686;
+    margin-bottom: 50px;
+}
+
+#image-1,
+#image-2,
+#image-3 {
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+h2.fade-in,
+p.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#image-1.show-up {
+    transition: .4s ease 1s;
+}
+
+#image-2.show-up {
+    transition: .4s ease 1.3s;
+}
+
+#image-3.show-up {
+    transition: .4s ease 1.6s;
+}
+
+#image-1.show-up,
+#image-2.show-up,
+#image-3.show-up {
+    opacity: 1;
+    transform: translateY(0);
+}
